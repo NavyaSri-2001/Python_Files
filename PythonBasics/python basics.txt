@@ -1,0 +1,60 @@
+python basics
+
+a=[1,2,3] #list
+x,y,z=a
+print(x,y,z)
+name='navya'
+print(name)
+name=1
+print(name)
+ranks=(1,2,3)#tuple which can't be modified
+print(ranks[1])#accesing element using index
+print(ranks)
+print(type(ranks))
+set_demo={1,2,4,5,5,3,3,3}#set stores only unique values and is unordered
+print(set_demo)
+dict_demo={'name':'navya','age':22}#dictionary stores key, value pairs and is unordered
+print(dict_demo['name'])
+dict_demo.update({'gender':'f'})
+print(dict_demo)
+del dict_demo['age']
+print(dict_demo)
+print('vanila'==10)
+print(not(10>50))#logical operator
+print((10>5) |(20>100))#or
+bio="I love maths"
+print("love" in bio)#membership opertor
+print("science" not in bio)
+if(25>10):
+    print('it worked')
+    if(10>5):
+        print('nested if also worked')
+elif(25>21):
+    print('elif worked')
+else:
+    print('nothing worked')
+list_1=['vanila','chocolote','strawberry']#list
+list_2=['chocos','chips','cashews']
+for i in list_1:
+    for j in list_2:
+        print(i+ " topped with "+j)
+        print('happy')
+    print('yippie')
+number =0
+while(number <5):
+    print(number)
+    if(number==3):
+        break
+    number+=1
+else:
+    print('done')
+number=0
+while(number <5):
+    number+=1
+    if(number==3):
+        continue
+    print(number)
+else:
+    print('done')
+
+    

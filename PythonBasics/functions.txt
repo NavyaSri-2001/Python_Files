@@ -1,0 +1,26 @@
+functions
+
+def square_custom(num,power):#function
+    print(num**power)
+square_custom(2,5)
+def arbi_args_demo(*numbers):#function with arbitrary arguments
+    print(numbers[0],numbers[2])
+arbi_args_demo(1,2,3,4,5)
+args_tuple =(1,2,3)
+arbi_args_demo(*args_tuple)
+square_custom(power=2,num=5)#keyword arguments
+def arbi_keyword(**numbers):#arbitrary keyword arguments
+    print('my numbers are '+numbers['no1']+','+numbers['no2'])
+arbi_keyword(no1='1',no2='2')
+string1="7"
+num_str=int(string1)#data type conversion
+num1=7
+print(num1+num_str, type(num_str))
+dict_1={'name':'navya','age':22}
+print(type(dict_1))
+list_1=list(dict_1.values())
+list_2=list(dict_1.items())
+print(type(list_1))
+print(list_2)
+weight=input("Enter a value: ")#taking value as input
+print(weight)
